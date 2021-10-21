@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Bloom.cpp">
+      <Filter>BLOOM</Filter>
+    </ClCompile>
+    <ClCompile Include="Base58.cpp">
+      <Filter>ENCODE</Filter>
+    </ClCompile>
+    <ClCompile Include="hash\ripemd160.cpp">
+      <Filter>HASH</Filter>
+    </ClCompile>
+    <ClCompile Include="hash\ripemd160_sse.cpp">
+      <Filter>HASH</Filter>
+    </ClCompile>
+    <ClCompile Include="hash\sha256.cpp">
+      <Filter>HASH</Filter>
+    </ClCompile>
+    <ClCompile Include="hash\sha256_sse.cpp">
+      <Filter>HASH</Filter>
+    </ClCompile>
+    <ClCompile Include="hash\sha512.cpp">
+      <Filter>HASH</Filter>
+    </ClCompile>
+    <ClCompile Include="SECP256K1.cpp">
+      <Filter>SECP256K1</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>SECP256K1</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>SECP256K1</Filter>
+    </ClCompile>
+    <ClCompile Include="IntMod.cpp">
+      <Filter>SECP256K1</Filter>
+    </ClCompile>
+    <ClCompile Include="IntGroup.cpp">
+      <Filter>SECP256K1</Filter>
+    </ClCompile>
+    <ClCompile Include="Int.cpp">
+      <Filter>SECP256K1</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\GPUGenerate.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdParse.cpp">
+      <Filter>CMDPARSE</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotor.cpp">
+      <Filter>ROTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>ROTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="GmpUtil.cpp">
+      <Filter>ROTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="hash\keccak160.cpp">
+      <Filter>HASH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bloom.h">
+      <Filter>BLOOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Base58.h">
+      <Filter>ENCODE</Filter>
+    </ClInclude>
+    <ClInclude Include="hash\ripemd160.h">
+      <Filter>HASH</Filter>
+    </ClInclude>
+    <ClInclude Include="hash\sha256.h">
+      <Filter>HASH</Filter>
+    </ClInclude>
+    <ClInclude Include="hash\sha512.h">
+      <Filter>HASH</Filter>
+    </ClInclude>
+    <ClInclude Include="SECP256k1.h">
+      <Filter>SECP256K1</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>SECP256K1</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>SECP256K1</Filter>
+    </ClInclude>
+    <ClInclude Include="IntGroup.h">
+      <Filter>SECP256K1</Filter>
+    </ClInclude>
+    <ClInclude Include="Int.h">
+      <Filter>SECP256K1</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\GPUBase58.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\GPUCompute.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\GPUEngine.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\GPUHash.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\GPUMath.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdParse.h">
+      <Filter>CMDPARSE</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotor.h">
+      <Filter>ROTOR</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>ROTOR</Filter>
+    </ClInclude>
+    <ClInclude Include="GmpUtil.h">
+      <Filter>ROTOR</Filter>
+    </ClInclude>
+    <ClInclude Include="hash\keccak160.h">
+      <Filter>HASH</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BLOOM">
+      <UniqueIdentifier>{0a090767-44f5-4304-8cdd-0afd5727b198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENCODE">
+      <UniqueIdentifier>{576aac75-9dce-4fd0-8a69-450eb1a0a248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU">
+      <UniqueIdentifier>{8b6afed8-f81c-4b11-ab5c-af8339db4014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HASH">
+      <UniqueIdentifier>{bd39df51-ec3e-479a-8d6f-be5e591ad3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SECP256K1">
+      <UniqueIdentifier>{04a52845-fc70-4469-b3f7-ef5b1a9179b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMDPARSE">
+      <UniqueIdentifier>{ea792c39-9990-4c72-802b-aff345dd01c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ROTOR">
+      <UniqueIdentifier>{b83e8804-c7dd-4300-9312-650665f05e16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="GPU\GPUEngine.cu">
+      <Filter>GPU</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
