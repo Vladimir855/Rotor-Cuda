@@ -3,9 +3,6 @@
 1. Install libgmp-dev
 2. Install CUDA 11.0
 3. Replace the Main.cpp and Rotor.cpp files in the Rotor folder with these.
-4. Copy the Makefile to the rotor folder
-5. Install  
-
 
  - Edit the makefile and set up the appropriate CUDA SDK and compiler paths for nvcc. 
  - Or pass them as variables to `make` command.
