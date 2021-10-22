@@ -495,7 +495,7 @@ C:\Users\user>Rotor-Cuda.exe -t 0 -g --gpui 0 --gpux 256,256 -m addresses --coin
 ```
 
 ## Single address mode 
-Run ```otor-Cuda.exe -t 0 -g --gpui 0 --gpux 256,256 -m address --coin BTC --range 400000000:7ffffffff 1PWCx5fovoEaoBowAvF5k91m2Xat9bMgwb```
+Run ```Rotor-Cuda.exe -t 0 -g --gpui 0 --gpux 256,256 -m address --coin BTC --range 400000000:7ffffffff 1PWCx5fovoEaoBowAvF5k91m2Xat9bMgwb```
 ```
 C:\Users\user>Rotor-Cuda.exe -t 0 -g --gpui 0 --gpux 256,256 -m address --coin BTC --range 400000000:7ffffffff 1PWCx5fovoEaoBowAvF5k91m2Xat9bMgwb
 
